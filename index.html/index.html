@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 1 - Список фруктов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        /* Общий светлый фон списка */
+        .fruit-list {
+            background-color: #e8a5b0; /* Светло-розовый общий фон */
+            padding: 15px;
+            width: 300px;
+            list-style: none;
+            margin: 0;
+        }
+
+        /* Более темный фон у элементов списка */
+        .fruit-item {
+            background-color: #d30020; /* Средне-розовый фон элемента */
+            margin-bottom: 8px;
+            padding: 4px;
+        }
+
+        /* Самый темный фон только под текстом */
+        .fruit-content {
+            background-color: #ff0026; /* Темно-розовый фон под текстом */
+            color: white;
+            padding: 8px 12px;
+            display: flex;
+        }
+
+        .fruit-number {
+            margin-right: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<ul class="fruit-list">
+    <li class="fruit-item">
+        <div class="fruit-content">
+            <span class="fruit-number">1.</span>
+            <span class="fruit-name">Apple</span>
+        </div>
+    </li>
+    <li class="fruit-item">
+        <div class="fruit-content">
+            <span class="fruit-number">2.</span>
+            <span class="fruit-name">Orange</span>
+        </div>
+    </li>
+    <li class="fruit-item">
+        <div class="fruit-content">
+            <span class="fruit-number">3.</span>
+            <span class="fruit-name">Pineapple</span>
+        </div>
+    </li>
+    <li class="fruit-item">
+        <div class="fruit-content">
+            <span class="fruit-number">4.</span>
+            <span class="fruit-name">Pear</span>
+        </div>
+    </li>
+    <li class="fruit-item">
+        <div class="fruit-content">
+            <span class="fruit-number">5.</span>
+            <span class="fruit-name">Cherry</span>
+        </div>
+    </li>
+</ul>
+
+</body>
+</html>
